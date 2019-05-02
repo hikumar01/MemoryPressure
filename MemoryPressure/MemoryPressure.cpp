@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
         try {
             int *p = (int*)malloc(SIZE2 * sizeof(int));
             if (p == nullptr) {
-                cout << "test Error allocating memory for " << i << endl;
+                cout << "Error allocating memory for " << i << endl;
                 break;
             }
             vec.push_back(p);
